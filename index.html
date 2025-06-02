@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="About YUJI B. TSUTA" />
+    <title>YUJI's Portfolio</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="javascript/script.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <img class="logo" src="assets/mylogo.png" alt="mylogo" />
+      <div class="searchbar"><h7></h7></div>
+      <button class="contactme" onclick="openemailURL()">
+        <h7>Contact me</h7>
+      </button>
+      <button class="facebook" id="fbpagebutton" onclick="openfbURL()">
+        <i class="fa-brands fa-facebook"></i>
+      </button>
+      <button class="linkedin" id="linkedinbutton" onclick="openlinkedinURL()">
+        <i class="fa-brands fa-linkedin-in"></i>
+      </button>
+    </header>
+    <nav></nav>
+    <main>
+      <div class="profilepanel">
+        <div class="profilepic">
+          <img src="assets/profilepic.jpg" alt="profilepic" />
+        </div>
+        <div class="profilecover">
+          <img src="assets/coverpic.jpg" alt="coverpic" />
+        </div>
+      </div>
+    </main>
+    <section></section>
+    <article></article>
+    <aside></aside>
+    <footer></footer>
+  </body>
+
+  <script>
+    document.getElementById("myname-text").textContent = myname;
+    document.getElementById("myemail-text").textContent = myemail;
+    document.getElementById("mycontact-text").textContent = mycontact;
+    document.getElementById("myaddress-text").textContent = myaddress;
+    document.getElementById("careersum-text").textContent = careersum;
+  </script>
+</html>

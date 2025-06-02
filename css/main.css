@@ -1,0 +1,141 @@
+:root {
+  --bg-color: #f9f9f9;
+  --text-color: #333;
+  --container-bg: #ffffff;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --primary-color: #2c3e50;
+  --secondary-color: #777;
+  --border-color: #e0e0e0;
+  --date-color: #888;
+  --button-bg: #2c3e50;
+  --button-color: #ffffff;
+  --main-color: #9a93ff;
+}
+
+img {
+  overflow: hidden;
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(238, 238, 238);
+  }
+
+header {
+  box-shadow: 0 0 20px var(--shadow-color);
+  background-color: rgb(249, 249, 255);
+  padding: 10px;
+  height: 27px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.logo {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  flex-shrink: 0;
+  border-radius: 37px;
+}
+
+.searchbar {
+  width: 6rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.contactme {
+  width: 4.5rem;
+  height: 2rem;
+  font-size:x-small;
+  color: var(--text-color);
+  box-shadow: 0 0 0px var(--shadow-color);
+  border-radius: 17px;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 1;
+  align-self: center;
+}
+.contactme:hover {
+  background-color: var(--main-color);
+  color: var(--bg-color);
+  transition: 0.1s;
+}
+
+
+.facebook {
+  width: 2rem;
+  height: 2rem;
+  font-size: 140%;
+  color: var(--text-color);
+  box-shadow: 0 0 20px var(--shadow-color);
+  border-radius: 45px;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 1;
+  align-self: center;
+}
+.facebook:hover {
+  color: var(--main-color);
+  transition: 0.1s;
+}
+
+.linkedin {
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 90%;
+  background-color: #333;
+  color: white;
+  box-shadow: 0 0 20px var(--shadow-color);
+  border-radius: 45px;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 1;
+  justify-self: center;
+  align-self: center;
+}
+.linkedin:hover {
+  background-color: var(--main-color);
+  transition: 0.1s;
+}
+
+.profilepic {
+  background-color: #0054bb;
+  width: 80%;
+  margin: 1rem auto;
+  display: flex;
+  background: var(--container-bg);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px var(--shadow-color);
+  gap: 1rem;
+  font-size: 2vw;
+}
+
+.profilecover {
+  background-color: #0054bb;
+  width: 80%;
+  margin: 1rem auto;
+  display: flex;
+  background: var(--container-bg);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px var(--shadow-color);
+  gap: 1rem;
+  font-size: 2vw;
+}
