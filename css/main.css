@@ -114,46 +114,162 @@ header {
 }
 
 .profilepanel {
-  width: 100%;
-  min-height: 70vh;
-  align-self: center;
+  height: 350px;
+  padding: 10px;
   background-color: #f5f5f5;
-  display: flex;
   box-shadow: 0 0 10px var(--shadow-color);
-  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-self: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 20px;
 }
 
 .profilepic {
   margin-left: 40px;
-  background-color: #0054bb;
+  background-color: #263cff;
   width: 300px;
   height: 300px;
-  border-radius: 40% 60% 30% 70% / 60% 30% 70% 80%;
+  border-radius: 60%;
   box-shadow: 0 4px 20px rgba(0,0,0,0.15);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   transition: border-radius 0.5s ease;
+  display: flex;
   overflow: hidden;
 }
 
 .profilepic:hover {
-  border-radius: 50% 50% 40% 60% / 50% 60% 40% 50%;
+  border-radius: 20% 20% 20% 20%;
 }
 
 .profilewelcome {
-  width: 70%;
+  width: 100%;
   height: 17rem;
-  margin: 2rem;
-  padding-left: 10px;
-  display: flex;
-  gap: 1rem;
+  padding: 10px;
   color: var(--text-color);
-  text-align: left;
-  justify-content: flex-start;
-  font-size: xx-large;
+  font-size: 3mm;
   line-height: 1.6;
   font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  font-size:small;
+}
+
+.greetbox {
+  display: flex;
+}
+
+.greetbox2 {
+  display: flex;
+  margin-right: 10px;
+}
+
+.namebox {
+  color: #263cff;
+  display: flex;
+  align-items: center;
+}
+.greetname {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.careerbox {
+  display: flex;
+  width: 50%;
+  text-align: justify;
+}
+
+
+.adspace1 {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 200px;
+  padding: 10px;
+  background-color: #e0e0e0;
+}
+
+.workxpcontainer {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 600px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  box-shadow: 0 0 10px var(--shadow-color);
+  border-radius: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex-direction: column;
+}
+
+
+.worktitle {
+  width: 100%;
+  height: 33px;
+  display: flex;
+  
+  
+}
+
+.workicon {
+  width: 2rem;
+  height: 2rem;
+  font-size: 140%;
+  color: var(--text-color);
+  box-shadow: 0 0 20px var(--shadow-color);
+  border-radius: 45px;
+  border: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  background-color: #e0e0e0;
+}
+
+.worktext {
+  padding-left: 10px;
+  font-size: medium;
+  margin-top: 0;
+  font-weight: bold;
+  color: #333;
+  justify-content: space-around;
+}
+
+.job {
+  margin-top: 20px;
+  width: 100%;
+  height: 30px;
+  display: flex;
+}
+
+.jobdescription {
+  width: 100%;
+  height: 30px;
+  color: #777;
+  margin-top: 0;
+}
+
+.kujialeworks {
+  height: 450px;
+}
+
+
+
+
+/*Desktops*/
+@media (max-width: 1440px) {
+
+}
+
+/*Tablet or Phone*/
+@media (max-width: 1024px) {
 }
