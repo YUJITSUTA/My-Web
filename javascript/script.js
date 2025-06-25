@@ -6,7 +6,7 @@ const myemail = 'yujitsuta20@gmail.com';
 const mycontact = '(962) 251 7473';
 const myaddress = 'Mississippi St., Purok 3, Brgy. Malanday, Marikina City';
 const careersum = 'A Software Developer and Computer-Aided Designer, Experienced with JavaScript, Python, and 3D modeling softwares such as SketchUP, and Kujiale or Coohom for interactive 360 walktrough. Studied Computer Engineering and have a background in Interior Design that provides a strong sense of detail and visual. Continuously learning and committed programming and design.';
-const myfbpageURL = 'https://www.facebook.com/atust20/';
+const myfbpageURL = 'https://www.facebook.com/ji.yu.tatsu';
 const mylinkedinURL = 'https://www.linkedin.com/in/yujitsuta'
 
 
